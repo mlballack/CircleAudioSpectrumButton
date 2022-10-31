@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE2B84A2290FECDE00DB4520 /* CircleAudioSpectrumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B84A1290FECDE00DB4520 /* CircleAudioSpectrumApp.swift */; };
+		CE2B84A4290FECDE00DB4520 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B84A3290FECDE00DB4520 /* ContentView.swift */; };
+		CE2B84A6290FECE100DB4520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2B84A5290FECE100DB4520 /* Assets.xcassets */; };
+		CE2B84A9290FECE100DB4520 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2B84A8290FECE100DB4520 /* Preview Assets.xcassets */; };
+		CE2B84B3290FECE100DB4520 /* CircleAudioSpectrumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B84B2290FECE100DB4520 /* CircleAudioSpectrumTests.swift */; };
+		CE2B84BD290FECE100DB4520 /* CircleAudioSpectrumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B84BC290FECE100DB4520 /* CircleAudioSpectrumUITests.swift */; };
+		CE2B84BF290FECE100DB4520 /* CircleAudioSpectrumUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B84BE290FECE100DB4520 /* CircleAudioSpectrumUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE2B84AF290FECE100DB4520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2B8496290FECDE00DB4520 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2B849D290FECDE00DB4520;
+			remoteInfo = CircleAudioSpectrum;
+		};
+		CE2B84B9290FECE100DB4520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2B8496290FECDE00DB4520 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2B849D290FECDE00DB4520;
+			remoteInfo = CircleAudioSpectrum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE2B849E290FECDE00DB4520 /* CircleAudioSpectrum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleAudioSpectrum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2B84A1290FECDE00DB4520 /* CircleAudioSpectrumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAudioSpectrumApp.swift; sourceTree = "<group>"; };
+		CE2B84A3290FECDE00DB4520 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE2B84A5290FECE100DB4520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE2B84A8290FECE100DB4520 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE2B84AE290FECE100DB4520 /* CircleAudioSpectrumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleAudioSpectrumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2B84B2290FECE100DB4520 /* CircleAudioSpectrumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAudioSpectrumTests.swift; sourceTree = "<group>"; };
+		CE2B84B8290FECE100DB4520 /* CircleAudioSpectrumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleAudioSpectrumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2B84BC290FECE100DB4520 /* CircleAudioSpectrumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAudioSpectrumUITests.swift; sourceTree = "<group>"; };
+		CE2B84BE290FECE100DB4520 /* CircleAudioSpectrumUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleAudioSpectrumUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE2B849B290FECDE00DB4520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2B84AB290FECE100DB4520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2B84B5290FECE100DB4520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE2B8495290FECDE00DB4520 = {
+			isa = PBXGroup;
+			children = (
+				CE2B84A0290FECDE00DB4520 /* CircleAudioSpectrum */,
+				CE2B84B1290FECE100DB4520 /* CircleAudioSpectrumTests */,
+				CE2B84BB290FECE100DB4520 /* CircleAudioSpectrumUITests */,
+				CE2B849F290FECDE00DB4520 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE2B849F290FECDE00DB4520 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2B849E290FECDE00DB4520 /* CircleAudioSpectrum.app */,
+				CE2B84AE290FECE100DB4520 /* CircleAudioSpectrumTests.xctest */,
+				CE2B84B8290FECE100DB4520 /* CircleAudioSpectrumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE2B84A0290FECDE00DB4520 /* CircleAudioSpectrum */ = {
+			isa = PBXGroup;
+			children = (
+				CE2B84A1290FECDE00DB4520 /* CircleAudioSpectrumApp.swift */,
+				CE2B84A3290FECDE00DB4520 /* ContentView.swift */,
+				CE2B84A5290FECE100DB4520 /* Assets.xcassets */,
+				CE2B84A7290FECE100DB4520 /* Preview Content */,
+			);
+			path = CircleAudioSpectrum;
+			sourceTree = "<group>";
+		};
+		CE2B84A7290FECE100DB4520 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE2B84A8290FECE100DB4520 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE2B84B1290FECE100DB4520 /* CircleAudioSpectrumTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE2B84B2290FECE100DB4520 /* CircleAudioSpectrumTests.swift */,
+			);
+			path = CircleAudioSpectrumTests;
+			sourceTree = "<group>";
+		};
+		CE2B84BB290FECE100DB4520 /* CircleAudioSpectrumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE2B84BC290FECE100DB4520 /* CircleAudioSpectrumUITests.swift */,
+				CE2B84BE290FECE100DB4520 /* CircleAudioSpectrumUITestsLaunchTests.swift */,
+			);
+			path = CircleAudioSpectrumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE2B849D290FECDE00DB4520 /* CircleAudioSpectrum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2B84C2290FECE100DB4520 /* Build configuration list for PBXNativeTarget "CircleAudioSpectrum" */;
+			buildPhases = (
+				CE2B849A290FECDE00DB4520 /* Sources */,
+				CE2B849B290FECDE00DB4520 /* Frameworks */,
+				CE2B849C290FECDE00DB4520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleAudioSpectrum;
+			productName = CircleAudioSpectrum;
+			productReference = CE2B849E290FECDE00DB4520 /* CircleAudioSpectrum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE2B84AD290FECE100DB4520 /* CircleAudioSpectrumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2B84C5290FECE100DB4520 /* Build configuration list for PBXNativeTarget "CircleAudioSpectrumTests" */;
+			buildPhases = (
+				CE2B84AA290FECE100DB4520 /* Sources */,
+				CE2B84AB290FECE100DB4520 /* Frameworks */,
+				CE2B84AC290FECE100DB4520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2B84B0290FECE100DB4520 /* PBXTargetDependency */,
+			);
+			name = CircleAudioSpectrumTests;
+			productName = CircleAudioSpectrumTests;
+			productReference = CE2B84AE290FECE100DB4520 /* CircleAudioSpectrumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE2B84B7290FECE100DB4520 /* CircleAudioSpectrumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2B84C8290FECE100DB4520 /* Build configuration list for PBXNativeTarget "CircleAudioSpectrumUITests" */;
+			buildPhases = (
+				CE2B84B4290FECE100DB4520 /* Sources */,
+				CE2B84B5290FECE100DB4520 /* Frameworks */,
+				CE2B84B6290FECE100DB4520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2B84BA290FECE100DB4520 /* PBXTargetDependency */,
+			);
+			name = CircleAudioSpectrumUITests;
+			productName = CircleAudioSpectrumUITests;
+			productReference = CE2B84B8290FECE100DB4520 /* CircleAudioSpectrumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE2B8496290FECDE00DB4520 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					CE2B849D290FECDE00DB4520 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					CE2B84AD290FECE100DB4520 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = CE2B849D290FECDE00DB4520;
+					};
+					CE2B84B7290FECE100DB4520 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = CE2B849D290FECDE00DB4520;
+					};
+				};
+			};
+			buildConfigurationList = CE2B8499290FECDE00DB4520 /* Build configuration list for PBXProject "CircleAudioSpectrum" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE2B8495290FECDE00DB4520;
+			productRefGroup = CE2B849F290FECDE00DB4520 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE2B849D290FECDE00DB4520 /* CircleAudioSpectrum */,
+				CE2B84AD290FECE100DB4520 /* CircleAudioSpectrumTests */,
+				CE2B84B7290FECE100DB4520 /* CircleAudioSpectrumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE2B849C290FECDE00DB4520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2B84A9290FECE100DB4520 /* Preview Assets.xcassets in Resources */,
+				CE2B84A6290FECE100DB4520 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2B84AC290FECE100DB4520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2B84B6290FECE100DB4520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE2B849A290FECDE00DB4520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2B84A4290FECDE00DB4520 /* ContentView.swift in Sources */,
+				CE2B84A2290FECDE00DB4520 /* CircleAudioSpectrumApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2B84AA290FECE100DB4520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2B84B3290FECE100DB4520 /* CircleAudioSpectrumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2B84B4290FECE100DB4520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2B84BF290FECE100DB4520 /* CircleAudioSpectrumUITestsLaunchTests.swift in Sources */,
+				CE2B84BD290FECE100DB4520 /* CircleAudioSpectrumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE2B84B0290FECE100DB4520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2B849D290FECDE00DB4520 /* CircleAudioSpectrum */;
+			targetProxy = CE2B84AF290FECE100DB4520 /* PBXContainerItemProxy */;
+		};
+		CE2B84BA290FECE100DB4520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2B849D290FECDE00DB4520 /* CircleAudioSpectrum */;
+			targetProxy = CE2B84B9290FECE100DB4520 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE2B84C0290FECE100DB4520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE2B84C1290FECE100DB4520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE2B84C3290FECE100DB4520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CircleAudioSpectrum/Preview Content\"";
+				DEVELOPMENT_TEAM = QP46AT64YD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m-hayashi.CircleAudioSpectrum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE2B84C4290FECE100DB4520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CircleAudioSpectrum/Preview Content\"";
+				DEVELOPMENT_TEAM = QP46AT64YD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m-hayashi.CircleAudioSpectrum";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE2B84C6290FECE100DB4520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP46AT64YD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m-hayashi.CircleAudioSpectrumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleAudioSpectrum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CircleAudioSpectrum";
+			};
+			name = Debug;
+		};
+		CE2B84C7290FECE100DB4520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP46AT64YD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m-hayashi.CircleAudioSpectrumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CircleAudioSpectrum.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CircleAudioSpectrum";
+			};
+			name = Release;
+		};
+		CE2B84C9290FECE100DB4520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP46AT64YD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m-hayashi.CircleAudioSpectrumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CircleAudioSpectrum;
+			};
+			name = Debug;
+		};
+		CE2B84CA290FECE100DB4520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP46AT64YD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.m-hayashi.CircleAudioSpectrumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CircleAudioSpectrum;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE2B8499290FECDE00DB4520 /* Build configuration list for PBXProject "CircleAudioSpectrum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2B84C0290FECE100DB4520 /* Debug */,
+				CE2B84C1290FECE100DB4520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2B84C2290FECE100DB4520 /* Build configuration list for PBXNativeTarget "CircleAudioSpectrum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2B84C3290FECE100DB4520 /* Debug */,
+				CE2B84C4290FECE100DB4520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2B84C5290FECE100DB4520 /* Build configuration list for PBXNativeTarget "CircleAudioSpectrumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2B84C6290FECE100DB4520 /* Debug */,
+				CE2B84C7290FECE100DB4520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2B84C8290FECE100DB4520 /* Build configuration list for PBXNativeTarget "CircleAudioSpectrumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2B84C9290FECE100DB4520 /* Debug */,
+				CE2B84CA290FECE100DB4520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE2B8496290FECDE00DB4520 /* Project object */;
+}
